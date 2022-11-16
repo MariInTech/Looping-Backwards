@@ -1,0 +1,21 @@
+const jonas = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+];
+
+// 0, 1, 2, 3, 4
+//4, 3, 2, 1, 0
+
+for (let i = jonas.length - 1; i >= 0; i--) {
+  console.log(i, jonas[i]);
+}
+
+//the console will display 
+//4 (3) ['Michael', 'Peter', 'Steven']
+//3 'teacher'
+//2 46
+//1'Schmedtmann'
+//0 'Jonas'
